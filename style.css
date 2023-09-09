@@ -112,6 +112,12 @@ h2 {
 
 .parallax-bg h2 {
     color: #FFFFFF;
+    font-size: xx-large;
+}
+
+.parallax-bg p {
+    color: #FFFFFF;
+    font-size: larger;
 }
 
 .parallax-bot {
@@ -122,8 +128,10 @@ h2 {
     height: 90vh;
 }
 
-.parallax-bot h2 {
+.parallax-bot h2, p {
     color: #FFFFFF;
+    text-align: bottom;
+    font-size: xx-large;
 }
 
 .gallery {
