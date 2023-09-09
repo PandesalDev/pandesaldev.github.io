@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 32px;
+}
+
+section {
+    padding: 40px;
+}
+
+#about {
+    background-color: #FFC0CB;
+}
+
+#image-section {
+    background-color: #FF3366;
+}
+
+#posts {
+    background-color: #FF00FF;
+}
+
+#media {
+    background-color: #ADD8E6;
+}
+
+#contact {
+    background-color: #4488FF;
+}
+
+#image-section .image-container p {
+    color: #FFFFFF;
+}
+
+#image-section .image-container img {
+    width: calc(50% - 10px);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333333;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+
+}
+
+.side {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.side img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.parallax-bg {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 75vh;
+}
+
+.parallax-bg h2 {
+    color: #FFFFFF;
+}
+
+.parallax-bot {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.parallax-bot h2 {
+    color: #FFFFFF;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
