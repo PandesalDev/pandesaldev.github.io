@@ -26,6 +26,16 @@ section {
     background-color: #FF00FF;
 }
 
+a:link, a:visited {
+    background-color: #FFFFFF;
+    color: 000000;
+    border: 2px #3BA424;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-black;
+}
+
 #media {
     background-color: #ADD8E6;
 }
